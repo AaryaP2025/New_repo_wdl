@@ -1,0 +1,35 @@
+fieldset {
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 5px;
+}
+
+input, select {
+    width: 250px;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 2px solid yellow;
+}
+
+input[type="submit"] {
+    width: 100px;
+    background-color: darkblue;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: yellow;
+    color: darkblue;
+}
